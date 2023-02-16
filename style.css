@@ -1,0 +1,107 @@
+
+.body {
+  margin: 0%;
+  width:100%;
+  
+}
+
+.header {
+position: absolute;
+width: 375px;
+height: 48px;
+display:flex;
+justify-content: space-between;
+outline: solid red 1px;
+
+background: #FFFFFF;
+
+}
+
+.logo {
+width: 120px;
+height: 20px;
+
+font-family: 'Poppins' ,sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 20px;
+
+
+display: flex;
+align-items: center;
+text-align: center;
+text-decoration: none;
+
+
+
+color: #6070FF;
+
+
+}
+
+.intro{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 114px 24px;
+gap: 12px;
+background-image: url(header-shapes.png);
+position: absolute;
+width: 375px;
+height: 604px;
+top: 92px;
+outline: solid 1px red;
+background-repeat: no-repeat;
+}
+
+.greetings {
+font-family: 'Poppins' , sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 52px;
+margin-left: -20px;
+
+
+display: flex;
+align-items: center;
+
+
+
+color: #172B4D;
+
+}
+
+.about {
+font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 24px;
+color: #344563;
+float : left;
+
+margin-left: -20px;
+
+
+
+
+
+
+}
+
+
+
+.connect{
+font-family: 'Poppins' sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+color: #7F8CFF;
+margin-left:  -10px;
+
+
+}
+
